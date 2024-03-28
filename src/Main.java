@@ -15,13 +15,7 @@ public class Main {
         System.out.println("Do u wanna play? Press Y or N.");
         String douwanna = yesorno.nextLine();
 
-        if (douwanna.equalsIgnoreCase("N")) {
-            System.out.println("U are anyway loser");
-        } else {
-            Scanner username = new Scanner(System.in);
-            System.out.println("Type your Username here: ");
-            Himname = username.nextLine();
-        }
+
 
         Connect4.start();
 
